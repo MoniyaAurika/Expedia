@@ -1,8 +1,8 @@
 package flightLoc;
 
 public class Locators {
-	String FN="//*[@id='u_0_c']";
-	String LN="//*[@id='u_0_e']";
-	String email="//*[@id='u_0_h']";
-	String  pass="//*[@id='u_0_o']";
+	public String url="https://www.expedia.com/";
+	
+public String addpro="//*[@id='header-partner-add-hotel-container']/a";	
+public String topheader="//*[@id='header-container']/div[2]/div[9]/div";
 }

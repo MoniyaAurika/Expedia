@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59615" started-at="2019-05-01T14:24:27Z" finished-at="2019-05-01T14:25:27Z">
+  <suite name="Default suite" duration-ms="12657" started-at="2019-05-26T17:38:39Z" finished-at="2019-05-26T17:38:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59615" started-at="2019-05-01T14:24:27Z" finished-at="2019-05-01T14:25:27Z">
-      <class name="base.Config">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:base.Config@71c7db30]" name="openBrowser" is-config="true" duration-ms="59554" started-at="2019-05-01T07:24:27Z" finished-at="2019-05-01T07:25:27Z">
+    <test name="Default test" duration-ms="12657" started-at="2019-05-26T17:38:39Z" finished-at="2019-05-26T17:38:51Z">
+      <class name="test_flight_feature.VerifyUrl">
+        <test-method status="PASS" signature="browserOpen()[pri:0, instance:test_flight_feature.VerifyUrl@45c8e616]" name="browserOpen" is-config="true" duration-ms="12546" started-at="2019-05-26T10:38:39Z" finished-at="2019-05-26T10:38:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:base.Config@71c7db30]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-05-01T07:25:27Z" finished-at="2019-05-01T07:25:27Z">
+        </test-method> <!-- browserOpen -->
+        <test-method status="PASS" signature="cc()[pri:0, instance:test_flight_feature.VerifyUrl@45c8e616]" name="cc" duration-ms="83" started-at="2019-05-26T10:38:51Z" finished-at="2019-05-26T10:38:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- base.Config -->
+        </test-method> <!-- cc -->
+      </class> <!-- test_flight_feature.VerifyUrl -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
